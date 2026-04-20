@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+}
+
+.carousel {
+    border: 3px solid red;
+    padding: 1em;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+
+#display {
+    border: 3px solid blue;
+    margin: 0 1em;
+    height: 500px;
+
+    display: flex;
+    /* overflow-x: auto; */
+    overflow: hidden;
+    
+    scroll-behavior: smooth;
+
+    img {
+        flex: 0 0 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
