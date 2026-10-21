@@ -1,14 +1,55 @@
+.box {
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+}
 
+/* Page Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-h1 {
-    color: #0000ff;
+    font-family: sans-serif;
+}
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: 3px solid white;
+    cursor: pointer;
+
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: .3s;
 }
 
 .box {
-    border: 5px solid black;
+    border-radius: 25px;
+}
 
-    width: 200px;
-    height: 200px;
+#display-code {
+    background: white;
+    color: black;
 
+    padding: 5px 20px;
+    border-radius: 25px;
 }
