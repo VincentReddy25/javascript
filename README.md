@@ -164,3 +164,9 @@
     - shallow copy / deep copy
 
 https://github.com/VincentReddy25/javascript-basics.git
+
+# Projects
+
+- Color Generator
+- Table Generator
+- Form Validation
