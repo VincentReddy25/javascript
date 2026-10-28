@@ -169,4 +169,5 @@ https://github.com/VincentReddy25/javascript-basics.git
 
 - Color Generator
 - Table Generator
+- todo app
 - Form Validation
